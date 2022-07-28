@@ -90,21 +90,32 @@ function getQuestions() {
       // next question
       nextQBtn.addEventListener("click", () => {
         // to make sure not to go farther the queestions count
-        if (currentQuestion < questionsCount) {
+        if (currentQuestion <= questionsCount) {
           // when we reach the last question
           if (currentQuestion === questionsCount - 1) {
             nextQBtn.textContent = "finish quiz";
             nextQBtn.style.cssText = "background-color:#28c528;";
           }
           let rightAns = questionsObj[currentQuestion - 1]["right_answer"];
+          checkAnswer(rightAns, answers);
+          if (currentQuestion === questionsCount) {
+            currentQuestion++;
+            clear();
+            submit();
+            let submitImg = document.createElement("img");
+            submitImg.src = "images/submit.svg";
+            submitImg.style.cssText =
+              "display:block; max-width:210px; margin:0 auto;";
+            document.querySelector(".answers-box").appendChild(submitImg);
+            return true;
+          }
           currentQuestion++;
 
-          checkAnswer(rightAns, answers);
           clear();
           manageBullets(currentQuestion);
           addQuestions(questionsObj[currentQuestion - 1], questionsCount);
           answers = document.querySelectorAll(".answer input");
-        } else if (currentQuestion >= questionsCount) {
+        } else {
           currentQuestion = 1;
           nextQBtn.textContent = "Next question";
           nextQBtn.style.cssText = "";
@@ -207,6 +218,12 @@ function checkAnswer(rAns, answers) {
       }
     }
   });
+}
+// submit function
+function submit() {
+  nextQBtn.textContent = "See results";
+  nextQBtn.style.cssText = "background-color:var(--orange);";
+  document.querySelector(".clear").style.display = "none";
 }
 // clear quesetion
 function clear() {
