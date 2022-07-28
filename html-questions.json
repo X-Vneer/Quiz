@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Why do we use <br> element?",
+    "answer_1": "To Make Text Bold",
+    "answer_2": "To Make Text Italic",
+    "answer_3": "To Add Breakline",
+    "answer_4": "To Create Horizontal Line",
+    "right_answer": "To Add Breakline"
+  },
+  {
+    "title": "Does <img> Element have Attribute href?",
+    "answer_1": "Yes",
+    "answer_2": "No It's for Anchor Tag <a>",
+    "answer_3": "All elements have This Attribute",
+    "answer_4": "Answer 1 and 3 is right",
+    "right_answer": "No It's for Anchor Tag <a>"
+  },
+  {
+    "title": "How can we make element's Text bold?",
+    "answer_1": "Using <b> Tag",
+    "answer_2": "Using <strong> Tag",
+    "answer_3": "Using Font-Weight Property In CSS",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "What is the right hierarchy for creating a part Of a page?",
+    "answer_1": "<h2> Then <p> Then <h1> Then <p> Then <h3> Then <p> Then <img>",
+    "answer_2": "<h1> Then <p> Then <h3> Then <p> Then <h2> Then <p> Then <img>",
+    "answer_3": "<h2> Then <p> Then <h3> Then <p> Then <h1> Then <p> Then <img>",
+    "answer_4": "All solutions are wrong",
+    "right_answer": "All solutions are wrong"
+  },
+  {
+    "title": "How can we include external page inside our HTML page?",
+    "answer_1": "Using Include in HTML",
+    "answer_2": "Using Load In HTML",
+    "answer_3": "Using iFrame Tag",
+    "answer_4": "All solutions are Wrong",
+    "right_answer": "Using iFrame Tag"
+  },
+  {
+    "title": "which of the following tags does NOT exist in HTML5",
+    "answer_1": "<object>",
+    "answer_2": "<basefont>",
+    "answer_3": "<abbr>",
+    "answer_4": "They all exist in HTML5",
+    "right_answer": "They all exist in HTML5"
+  },
+  {
+    "title": "How do we specify document Type Of HTML5 Page?",
+    "answer_1": "<DOCTYPE html>",
+    "answer_2": "<DOCTYPE html5>",
+    "answer_3": "<!DOCTYPE html5>",
+    "answer_4": "<!DOCTYPE html>",
+    "right_answer": "<!DOCTYPE html>"
+  },
+  {
+    "title": "Which of the following tags does NOT exist in HTML5 Semantics?",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<aside>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "Which of the following is correct to set class attribute?",
+    "answer_1": "<div class='class-name'>",
+    "answer_2": "<div class=class-name>",
+    "answer_3": "<div class=\"class-name\">",
+    "answer_4": "All of the above",
+    "right_answer": "All of the above"
+  },
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Home Tool Markup language",
+    "answer_2": "Hyperlinks and Text Markup language",
+    "answer_3": "Hyper Text Markup language",
+    "answer_4": "None of the above",
+    "right_answer": "Hyper Text Markup language"
+  }
+]
