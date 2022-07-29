@@ -512,6 +512,15 @@ body {
     display: none;
   }
 }
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+.footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
 .sec-de {
   width: 100%;
   padding: 20px;
