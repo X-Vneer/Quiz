@@ -536,3 +536,8 @@ body {
     transform: translate(0, 0);
   }
 }
+@media (max-width: 768px) {
+  * {
+    cursor: default !important;
+  }
+}

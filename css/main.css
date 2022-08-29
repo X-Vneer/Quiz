@@ -575,4 +575,9 @@ body {
   to {
     transform: translate(0, 0);
   }
+}
+@media (max-width: 768px) {
+  * {
+    cursor: default !important;
+  }
 }/*# sourceMappingURL=main.css.map */
